@@ -1,0 +1,111 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+/* start header */
+.navbar {
+    background-color: #eee;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar .logo,
+.navbar span {
+    font-weight:bold;
+    font-size:20px;
+    color:#21209c;;
+    text-transform: capitalize;
+}
+.navbar span {
+    color:#f2d80f;
+
+}
+.active {
+    color:#f2d80f
+}
+.navbar .menu {
+    list-style: none;
+    text-transform: capitalize;
+    display: inline-block;
+    margin:7px 10px 0 0;
+    position: relative;
+}
+.navbar .menu li span:first-child {
+    position:absolute;
+    width:3px;
+    height:0;
+    background-color:#f2d80f;
+    bottom:5px;
+    left:50px
+}
+.navbar .menu li span:last-child {
+    width: 0;
+    height: 3px;
+    top: 38px;
+    left: 50px;
+    background-color:#f2d80f;
+    position: absolute;
+
+}
+.navbar .menu li {
+    display:inline-block;
+    font-weight:bold;
+    margin-left:15px;
+    padding:10px ;
+    color:#21209c;
+    transition:all 0.5s ease-in-out;
+    cursor:pointer
+}
+
+.navbar .menu li:hover {
+    
+}
+.header .intro {
+    
+}
+.header .intro .text {
+   margin-top:22%
+   
+}
+.header .intro .text  h1 {
+    text-transform: capitalize;
+    color:#21209c;
+    font-weight:bold;
+    margin-bottom: 30px;
+    
+}
+.header .intro .text  p {
+    color:#808080;
+    font-size:15px;
+    margin: 50px 0;
+    line-height:1.8
+}
+.header .intro button {
+    background-color:#f2d80f;
+    padding:10px 25px;
+    border:none;
+    border-radius:  0 5px 0 5px ;
+    color:#21209c;
+    text-transform: uppercase;
+    font-weight:bold;
+    border-left:5px solid #21209c;
+    border-bottom: 5px solid #21209c;
+    cursor:pointer;
+    margin-top:50px;
+    transition:all .5s ease-in-out
+}
+.header .intro button:hover {
+    background-color:#21209c;
+    color:yellow
+}
+.header .headerbg {
+   margin-top:15px;
+   margin-left:35px;
+   cursor: pointer;
+   transition:all 0.5s ease-in-out
+}
+.header .headerbg:hover {
+   transform:scale(1.9);
+    transform:translate(6%,-3%);
+   
+
+}
+/* end header */
